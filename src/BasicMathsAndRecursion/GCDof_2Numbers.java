@@ -1,4 +1,4 @@
-package BasicMaths;
+package BasicMathsAndRecursion;
 
 public class GCDof_2Numbers {
     public static void main(String[] args) {

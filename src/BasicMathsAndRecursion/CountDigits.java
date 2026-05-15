@@ -1,4 +1,4 @@
-package BasicMaths;
+package BasicMathsAndRecursion;
 
 public class CountDigits {
     public static void main(String[] args) {
