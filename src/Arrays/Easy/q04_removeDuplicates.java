@@ -1,6 +1,6 @@
 package Arrays.Easy;
 
-public class removeDuplicates {
+public class q04_removeDuplicates {
     public static void main(String[] args) {
         int[] arr = {34, 57, 126, -90, 24, 68, 65};
         int r = remove(arr);

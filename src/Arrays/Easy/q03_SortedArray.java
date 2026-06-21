@@ -1,6 +1,6 @@
 package Arrays.Easy;
 
-public class SortedArray {
+public class q03_SortedArray {
     public static void main(String[] args) {
 //        int[] arr = {34, 57, 126, -90, 24, 68, 65};
         int[] arr = {2, 22, 23,45, 76};

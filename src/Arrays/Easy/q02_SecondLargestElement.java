@@ -1,6 +1,6 @@
 package Arrays.Easy;
 
-public class SecondLargestElement {
+public class q02_SecondLargestElement {
     public static void main(String[] args) {
         int[] arr = {34, 57, 126, -90, 24, 68, 65};
         int r = secondLargestElement(arr);

@@ -1,6 +1,6 @@
 package Arrays.Easy;
 
-public class LargestNumber {
+public class q01_LargestNumber {
     public static void main(String[] args) {
         int[] arr = {34, 57, 12, -90, 24, 68};
         int r = largest(arr);
