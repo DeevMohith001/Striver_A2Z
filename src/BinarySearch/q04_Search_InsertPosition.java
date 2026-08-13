@@ -8,7 +8,7 @@ public class q04_Search_InsertPosition {
         int s = 0;
         int e = nums.length-1;
         int ans = nums.length;
-        while(s<e){
+        while(s<=e){
             int m = s+(e-s)/2;
             if(nums[m]>=target){
                 ans = m;
