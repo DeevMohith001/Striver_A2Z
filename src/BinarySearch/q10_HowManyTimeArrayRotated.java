@@ -2,7 +2,7 @@ package BinarySearch;
 
 import java.util.ArrayList;
 
-public class q08_findMinimunInSortedArray {
+public class q10_HowManyTimeArrayRotated {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
 
@@ -15,27 +15,33 @@ public class q08_findMinimunInSortedArray {
         arr.add(2);
         arr.add(3);
 
-        int result = findMin(arr);
+        int result = findKRotation(arr);
 
         System.out.println("Number of rotations = " + result);
     }
+    public static int findKRotation(ArrayList<Integer> arr) {
 
-    public static int findMin(ArrayList<Integer> arr) {
         int s = 0;
         int e = arr.size() - 1;
 
         while (s < e) {
-            if (arr.get(s) < arr.get(e)) {
-                return arr.get(s);
+
+            // Current range is already sorted
+            if (arr.get(s) <= arr.get(e)) {
+                return s;
             }
+
             int m = s + (e - s) / 2;
+
             if (arr.get(m) > arr.get(e)) {
+                // Minimum is on the right
                 s = m + 1;
             } else {
+                // Minimum is at m or on the left
                 e = m;
             }
         }
 
-        return arr.get(s);
+        return s;
     }
 }
