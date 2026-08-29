@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BS_on_1Darrays;
 
 import java.util.ArrayList;
 

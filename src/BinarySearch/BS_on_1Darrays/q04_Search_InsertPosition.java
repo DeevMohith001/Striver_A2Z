@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BS_on_1Darrays;
 
 public class q04_Search_InsertPosition {
     public static void main(String[] args) {

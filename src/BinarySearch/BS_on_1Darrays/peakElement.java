@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BS_on_1Darrays;
 
 public class peakElement {
     public static void main(String[] args) {

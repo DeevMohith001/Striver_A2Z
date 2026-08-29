@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BS_on_1Darrays;
 
 public class q07_SearchInRotatedSortedArray {
     public static void main(String[] args) {

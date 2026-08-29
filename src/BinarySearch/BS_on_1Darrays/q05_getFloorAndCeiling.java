@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BS_on_1Darrays;
 import java.util.Arrays;
 public class q05_getFloorAndCeiling {
     public static void main(String[] args) {
